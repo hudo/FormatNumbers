@@ -7,8 +7,10 @@ Relative numbers formatter.
 ### Examples
 
 Time:  
-6 hours and 15 minutes ago
-1 day ago
+just now
+20 seconds ago  
+10 minutes ago  
+2 day ago
 
 
 Size:
