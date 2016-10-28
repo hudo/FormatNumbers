@@ -31,13 +31,23 @@ namespace Tests
         }
 
         [Theory]
-        [InlineData(60)]
+        [InlineData(120)]
         [InlineData(3599)]
         public void MinutesAgo(int seconds) 
         {
             var mins = Math.Floor(seconds / 60d);
             var text = FormatNumbers.TimeAgo.Format(TimeSpan.FromSeconds(seconds));
             Assert.Equal($"{mins} minutes ago", text);
+        }
+
+        [Theory]
+        [InlineData(120)]
+        [InlineData(1439)]
+        public void HoursAgo(int mins) 
+        {
+            var hours = Math.Floor(mins / 60d);
+            var text = FormatNumbers.TimeAgo.Format(TimeSpan.FromMinutes(mins));
+            Assert.Equal($"{hours} hours ago", text);
         }
     }
 }
