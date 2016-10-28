@@ -7,7 +7,7 @@ Relative numbers formatter.
 ### Examples
 
 Time:  
-just now
+just now  
 20 seconds ago  
 10 minutes ago  
 2 day ago
