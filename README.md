@@ -16,7 +16,7 @@ just now
 
 
 *Size:*  
-Input: bytes
+Input: bytes  
 Output:  
 42 KB  
 5 MB  
