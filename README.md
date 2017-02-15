@@ -7,6 +7,8 @@ Human readable numbers formatter.
 ### Examples
 
 *Time:*  
+Input: TimeSpan  
+Output:  
 just now  
 20 seconds ago  
 10 minutes ago  
@@ -14,8 +16,10 @@ just now
 
 
 *Size:*  
-42 KB
-5 MB
-10 GB  
+Input: bytes
+Output:  
+42 KB  
+5 MB  
+10 GB    
 
 
