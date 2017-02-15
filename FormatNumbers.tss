@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>C:\Codes\FormatNumbers\src\FormatNumbers\Helpers.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Codes\FormatNumbers\test\FormatNumbers.Tests\TimeAgoTests.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Codes\FormatNumbers\src\FormatNumbers\TimeFormat.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Codes\FormatNumbers\src\FormatNumbers\SizeFormat.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
