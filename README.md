@@ -37,6 +37,6 @@ using static HumanNumbers.TimeFormat
 using static HumanNumbers.SizeFormat  
 
 var ago = Ago(timeSpan);  
-var size Readable(sizeInBytes);  
+var size = Readable(sizeInBytes);  
 
 ```
