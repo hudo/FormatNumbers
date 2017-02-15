@@ -23,3 +23,20 @@ Output:
 10 GB    
 
 
+## Usage  
+
+```cs
+  
+var ago = TimeFormat.Ago(timeSpan);  
+var size = SizeFormat.Readable(sizeInBytes);  
+  
+  
+// or    
+  
+using static HumanNumbers.TimeFormat  
+using static HumanNumbers.SizeFormat  
+
+var ago = Ago(timeSpan);  
+var size Readable(sizeInBytes);  
+
+```
