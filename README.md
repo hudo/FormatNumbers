@@ -1,6 +1,6 @@
-# Format Numbers
+# Human Numbers
 
-Relative numbers formatter.
+Human readable numbers formatter.
 
 ## Work in progress!  
 
